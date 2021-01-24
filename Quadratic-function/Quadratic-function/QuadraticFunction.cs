@@ -37,7 +37,10 @@ namespace Quadratic_function
         public double B { get; private set; }
         public double C { get; private set; }
 
-        public void ShowFunction() { }
+        public void ShowFunction()
+        {
+            Console.WriteLine($"{A}x^2 + {B}x + {C}");
+        }
 
         public void ShowZeros() { }
     }
