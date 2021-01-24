@@ -8,29 +8,17 @@ namespace Quadratic_function
     {
         public QuadraticFunction()
         {
-            A = 0;
-            B = 0;
-            C = 0;
         }
 
         public QuadraticFunction(double a) 
         {
-            A = a;
-            B = 0;
-            C = 0;
         }
         public QuadraticFunction(double a, double b)
         { 
-            A = a;
-            B = b;
-            C = 0;
         }
 
         public QuadraticFunction(double a, double b, double c) 
         {
-            A = a;
-            B = b;
-            C = c;
         }
         
         public double A { get; private set; }
@@ -39,9 +27,11 @@ namespace Quadratic_function
 
         public void ShowFunction()
         {
-            Console.WriteLine($"{A}x^2 + {B}x + {C}");
         }
 
-        public void ShowZeros() { }
+        public void ShowZeros() 
+        {
+            Console.WriteLine("Zeros xd");
+        }
     }
 }
